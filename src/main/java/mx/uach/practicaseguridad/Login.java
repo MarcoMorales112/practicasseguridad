@@ -56,12 +56,12 @@ public class Login {
 
             if (nombre.equals("")) {
                 //Falta el usuario
-                validador = "Por favor complete el campo nombre";
+                validador = "Por favor complete el campo nombre: ";
                 attributes.put("nombre", nombre);
             } else if (email.equals("")) {
-                validador = "Por favor complete el campo email";
+                validador = "Por favor complete el campo email: ";
             } else if (password.equals("")) {
-                validador = "Por favor complete el campo password";
+                validador = "Por favor complete el campo password: ";
             }
 
             try {
